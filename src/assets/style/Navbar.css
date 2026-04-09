@@ -1,0 +1,16 @@
+.NavBar {
+    background-color: #212529 !important;
+}
+.link, .linkHome {
+    color: #ffffff !important;
+}
+.link:hover, .linkHome:hover {
+    color: #ffffff;
+}
+.link.active {
+    border-bottom: 2px solid white;
+    color: #ffffff !important;
+}
+.linkHome.active {
+    color: #ffffff !important;
+}
