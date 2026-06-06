@@ -3,17 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
+import './assets/style/Navbar.css';
 
-import './assets/style/Navbar.css'
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container className="NavBar">
-        <div></div>
+    <Navbar expand="lg" className="bg-body-tertiary" style={{ backgroundColor: '#212529' }}>
+      <Container fluid className="NavBar">
         <Navbar.Brand href="#home" className="linkHome">JOHN DOE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/Home" className="link">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/Services" className="link">Services</Nav.Link>
             <Nav.Link as={NavLink} to="/Portefolio" className="link">Portefolio</Nav.Link>

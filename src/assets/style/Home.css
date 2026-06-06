@@ -1,0 +1,44 @@
+.bg-custom {
+  background-image: url('src/assets/illustrations/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+#hautDePage {
+    color: white;
+    height: 650px;
+    width: 100%;
+}
+.Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+    height: 3000px;
+}
+.Body {
+    width: 100%;
+}
+button {
+    background-color: rgb(203, 68, 74);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+.basDePage {
+    display: flex;
+    flex-direction: row;
+}
+.about {
+    width: 50%;
+    height: 650px;
+}
+.aboutPicture {
+    width: 350px;
+    height: 325px;
+}
+.skills {
+    width: 50%;
+}
